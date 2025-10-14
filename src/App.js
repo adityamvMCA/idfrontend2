@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { AlertCircle, Upload, LogOut, User, Mail, Phone, BookOpen, Hash, MapPin, Droplet, Calendar, Settings } from 'lucide-react';
 import ConfirmModal from '../src/components/ConfirmModal/ConfirmModal';
 
-const API_URL = 'https://idbackend-production.up.railway.app/';
+const API_URL = 'https://idbackend-production.up.railway.app';
 
 function App() {
   const [isAdmin, setIsAdmin] = useState(false);
