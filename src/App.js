@@ -101,7 +101,7 @@ function HomePage({ setToken, setIsAdmin, collegeInfo }) {
             onClick={() => setShowLogin(true)}
             className="bg-indigo-600 text-white px-6 py-2 rounded-lg hover:bg-indigo-700 transition"
           >
-            Admin Login
+            Admin Logins
           </button>
         </div>
       </header>
